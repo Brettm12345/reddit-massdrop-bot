@@ -1,0 +1,23 @@
+{
+  "name": "reddit-massdrop-bot",
+  "version": "1.0.0",
+  "description": "A reddit bot which watches subreddits for massdrop links without guest view enabled",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "prettier": "1.7.4",
+    "prettier-eslint": "^8.2.1"
+  },
+  "dependencies": {
+    "reddit-snooper": "^1.0.1"
+  }
+}
